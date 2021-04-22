@@ -31,6 +31,8 @@ public class MainActivity extends AppCompatActivity implements Top_fragment.topF
         Fragment load_fragment = new Bottom_fragment();
         FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
 
+
+
         fragmentTransaction.replace(R.id.fragment_loader, load_fragment);
         fragmentTransaction.addToBackStack(null);
         fragmentTransaction.commit();
@@ -42,13 +44,6 @@ public class MainActivity extends AppCompatActivity implements Top_fragment.topF
 
 
 
-
-        //((Bottom_fragment) load_fragment).setMemeText(textTop, textBottom);
-
-
-
-        //textTop.getText().toString(), textBottom.getText().toString()
-        //String textTop, String textBottom
 
     }
 

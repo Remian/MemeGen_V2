@@ -87,8 +87,3 @@ public class Top_fragment extends Fragment {
 
     }
 }
-
-//tools:layout="@layout/top_fragment"
-//android:layout_below="@id/fragment2"
-//        android:layout_marginTop="91dp"
-//        tools:layout="@layout/bottom_fragment"

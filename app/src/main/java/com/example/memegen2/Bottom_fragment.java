@@ -13,7 +13,7 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
 
-public class Bottom_fragment extends Fragment implements Top_fragment.topFragmentListener {
+public class Bottom_fragment extends Fragment {
 
 
 
@@ -45,21 +45,4 @@ public class Bottom_fragment extends Fragment implements Top_fragment.topFragmen
 
     }
 
-
-    public void setMemeText(String top, String bottom){
-
-        memeTopText.setText(top);
-        memeBottomText.setText(bottom);
-
-
-
-
-    }
-
-    @Override
-    public void creatememe(String top, String bottom) {
-
-        setMemeText(top,bottom);
-
-    }
 }

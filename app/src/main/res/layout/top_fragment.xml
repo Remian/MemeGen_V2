@@ -68,12 +68,5 @@
         android:text="Generate Meme"
         android:textColor="#ffff" />
 
-    <fragment
-        android:id="@+id/fragment"
-        android:name="com.example.memegen2.LowerFragment"
-        android:layout_width="match_parent"
-        android:layout_height="350dp"
-        android:layout_below="@+id/runButton"
-        tools:layout="@layout/fragment_lower" />
 
 </RelativeLayout>
